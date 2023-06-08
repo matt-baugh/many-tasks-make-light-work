@@ -1,0 +1,44 @@
+{
+	"name": "Multitask Method",
+	// Build args (1)
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": "..",
+		"args": {
+			"PYTHON_VERSION": "3.10"
+		}
+	},
+	// Run args (2)
+	"runArgs": [
+		"--gpus=all",
+		"--privileged"
+	],
+	// Mounts (3)
+	"mounts": [
+		"source=/data2,target=/mounted-data/local-data,type=bind",
+		"source=/vol/medic01/users/mb4617,target=/mounted-data/my-medic01,type=bind",
+		"source=/vol/biomedic3/mb4617,target=/mounted-data/my-biomedic3,type=bind"
+	],
+	"customizations": {
+		"vscode": {
+			// Extensions to preinstall in the container (you can install more when it's running)
+			"extensions": [
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"github.copilot",
+				"github.vscode-pull-request-github",
+				"njpwerner.autodocstring"
+			],
+			// settings for the vscode workspace (can also be set when it's running)
+			"settings": {
+				// This is the venv path set in the Dockerfile
+				"python.defaultInterpreterPath": "/opt/venv/bin/python"
+			}
+		}
+	},
+	// "features": {
+	// 	"github-cli": "latest",
+	// },
+	"containerUser": "vscode", // we created this user in the Dockerfile
+	"shutdownAction": "none" // don't stop container on exit
+}
