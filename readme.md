@@ -19,6 +19,11 @@ The ISLES 2015 dataset is available at https://www.smir.ch/ISLES/Start2015
 
 The VinDr-CXR dataset is available at https://physionet.org/content/vindr-cxr/1.0.0/
 
+### Inter-dataset blending datasets
+
+The MOOD dataset (for 3D inter-dataset blending) is available at https://www.synapse.org/#!Synapse:syn21343101/wiki/599515
+
+The ImageNET dataset (for 2D inter-dataset blending) is available at https://www.kaggle.com/c/imagenet-object-localization-challenge/overview
 
 ## Preprocessing
 
