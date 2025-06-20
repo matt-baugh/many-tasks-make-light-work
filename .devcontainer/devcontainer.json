@@ -1,5 +1,5 @@
 {
-	"name": "Multitask Method",
+	"name": "Many tasks make light work",
 	// Build args (1)
 	"build": {
 		"dockerfile": "Dockerfile",

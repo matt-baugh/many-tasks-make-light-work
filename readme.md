@@ -70,3 +70,8 @@ To produce predictions run:
 ```python predict.py <path_to_repo>/experiments/exp_VINDR_low_res_T_train.py F```
 To evaluate the predictions run:
 ```python eval.py <path_to_repo>/experiments/exp_VINDR_low_res_T_train.py F```
+
+
+## Acknowledgements
+
+(Some) HPC resources were provided by the Erlangen National High Performance Computing Center (NHR@FAU) of the Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU) under the NHR projects b143dc and b180dc. NHR funding is provided by federal and Bavarian state authorities. NHR@FAU hardware is partially funded by the German Research Foundation (DFG) – 440719683.
