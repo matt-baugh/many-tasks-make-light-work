@@ -72,6 +72,34 @@ To evaluate the predictions run:
 ```python eval.py <path_to_repo>/experiments/exp_VINDR_low_res_T_train.py F```
 
 
+## Cite this work:
+
+```
+@InProceedings{baugh2023manytasks,
+    author="Baugh, Matthew
+    and Tan, Jeremy
+    and M{\"u}ller, Johanna P.
+    and Dombrowski, Mischa
+    and Batten, James
+    and Kainz, Bernhard",
+    title="Many Tasks Make Light Work: Learning to Localise Medical Anomalies from Multiple Synthetic Tasks",
+    booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2023",
+    editor="Greenspan, Hayit
+    and Madabhushi, Anant
+    and Mousavi, Parvin
+    and Salcudean, Septimiu
+    and Duncan, James
+    and Syeda-Mahmood, Tanveer
+    and Taylor, Russell",
+    year="2023",
+    publisher="Springer Nature Switzerland",
+    address="Cham",
+    pages="162--172",
+    isbn="978-3-031-43907-0"
+}
+
+```
+
 ## Acknowledgements
 
 (Some) HPC resources were provided by the Erlangen National High Performance Computing Center (NHR@FAU) of the Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU) under the NHR projects b143dc and b180dc. NHR funding is provided by federal and Bavarian state authorities. NHR@FAU hardware is partially funded by the German Research Foundation (DFG) – 440719683.
